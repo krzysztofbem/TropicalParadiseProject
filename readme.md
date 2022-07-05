@@ -1,6 +1,6 @@
 # The first official trainig project.
 
-## It was wrote with a tutor from MMC School, and created for showing skills I've already acuired.
+## It was wrote with the tutor from MMC School, and created for showing skills I've already acuired.
 
 **_In current project I used following components:_**
 

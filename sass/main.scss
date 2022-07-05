@@ -1,10 +1,21 @@
-* {
+@import './colors';
+@import './components';
+@import './mixins';
+
+*,
+::after,
+::before {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
 
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
 body {
-	font-family: 'Dancing Script', cursive;
 	font-family: 'Open Sans', sans-serif;
+	// font-family: 'Dancing Script', cursive;
+	font-size: 1.6rem;
 }

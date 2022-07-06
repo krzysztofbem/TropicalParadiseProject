@@ -119,4 +119,25 @@ body {
   width: 30%;
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
+}
+
+.header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2em;
+  height: 75vh;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

@@ -15,6 +15,7 @@
 		left: -50px;
 		transform: skew(45deg);
 	}
+
 	&-right {
 		top: 0;
 		right: -50px;
@@ -41,9 +42,10 @@
 		transition: transform 0.3s;
 		z-index: -1;
 	}
+
 	&:hover::before {
 		transform: scaleX(1);
-		transform-origin: right;
+		transform-origin: left;
 	}
 }
 
@@ -66,6 +68,7 @@
 	.section-heading {
 		font-size: 3.6rem;
 	}
+
 	.section-padding {
 		padding: 8em 2em;
 	}
@@ -75,6 +78,7 @@
 	.section-heading {
 		font-size: 4.8rem;
 	}
+
 	.section-padding {
 		padding: 10em 2em;
 	}

@@ -314,6 +314,28 @@ body {
 		}
 	}
 }
+// OFFERS SECTION
+.offers {
+	position: relative;
+	@include heroImages('../img/maldives-3220702_640.jpg');
+	overflow: hidden;
+
+	.section-heading {
+		color: $pure-white;
+	}
+
+	&__option {
+		margin: 1em 0;
+		box-shadow: 5px 5px 10px rgba(46, 46, 46, 0.18);
+		background-color: $pure-white;
+		overflow: hidden;
+	}
+	&-img {
+		width: 100%;
+		transition: transform 0.3s;
+		
+	}
+}
 
 // ===========================================
 // MEDIA
